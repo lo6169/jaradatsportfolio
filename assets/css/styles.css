@@ -1,0 +1,157 @@
+body
+{
+    background: rgb(4,0,79);
+    background: linear-gradient(90deg, #bae1ff, #ffffba, #ffb3ba, #ffdef2, #ffffff 100%);
+    font-family: "Roboto", Gadget, sans-serif;
+}
+
+ul
+{
+    list-style-type: none;
+    border-top: 1px solid rgba(179, 179, 179, 0.6);
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: rgba(179, 179, 179, 0.25);
+}
+
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+.main
+{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 5%;
+    opacity: 1;
+
+    animation: fadeIn ease 5s;
+}
+
+.head
+{
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    padding: 2%;
+}
+
+.head2
+{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    padding: 2%;
+}
+
+.body2
+{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.me
+{
+    padding: 1%;
+    border-radius: 50%;
+    width: 15%;
+    border: 1px solid lightgray;
+}
+
+.info
+{
+    text-align: left;
+    font-size: 2em;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    width: 80%;
+    margin-left: 8%;
+    line-height: 150%;
+}
+
+.info2
+{
+    text-align: left;
+    font-size: 1em;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    width: 80%;
+    margin-left: 8%;
+    line-height: 150%;
+}
+
+a
+{
+    color: black;
+}
+
+.container
+{
+    width: 50%;
+    margin-left: 25%;
+    padding: 2%;
+    text-align: center;
+}
+
+#comment
+{
+    width: 40em;
+    height: 20em;
+}
+
+#vemail, #vname, #sub
+{
+    width: 20em;
+}
+
+#send
+{
+    height: 2em;
+    width: 5em;
+    text-align: center;
+}
+
+.inputkind
+{
+    color: black;
+}
+
+.footer
+{
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    color: black;
+    font-size: 0.75em;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: rgba(179, 179, 179, 0.6);
+}
